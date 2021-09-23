@@ -18,5 +18,8 @@
     "dependencies": {
         "license-checker": "^25.0.1",
         "yargs": "^17.2.0"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
