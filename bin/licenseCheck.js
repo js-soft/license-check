@@ -35,8 +35,6 @@ const argv = yargs(yargs.hideBin(process.argv))
         description: "Ignore packages that match the given regex."
     }).argv;
 
-console.log(argv);
-
 require("../src/execute")({
     writeFile: argv.file,
     path: argv.outFile,

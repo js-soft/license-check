@@ -1,6 +1,6 @@
 {
     "name": "@js-soft/license-check",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Check for green licenses",
     "repository": {
         "type": "git",
