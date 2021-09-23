@@ -1,0 +1,20 @@
+module.exports = function (packages, ignorePrefixes) {
+    const out = {};
+
+    console.log(ignorePrefixes);
+
+    for (const packageName in packages) {
+        if (ignorePrefixes && packageName.match(ignorePrefixes)) continue;
+        console.log(packageName);
+
+        const license = packages[packageName].licenses;
+
+        if (!out[license]) {
+            out[license] = [];
+        }
+
+        out[license].push(packageName);
+    }
+
+    return out;
+};

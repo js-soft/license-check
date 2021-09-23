@@ -1,0 +1,22 @@
+{
+    "name": "@js-soft/license-check",
+    "version": "1.0.0",
+    "description": "Check for green licenses",
+    "repository": {
+        "type": "git",
+        "url": "github.com/js-soft/license-check.git"
+    },
+    "license": "MIT",
+    "author": "j&s-soft GmbH",
+    "main": "index.js",
+    "bin": {
+        "license-check": "./bin/licenseCheck.js"
+    },
+    "scripts": {
+        "start": "node bin/licenseCheck.js"
+    },
+    "dependencies": {
+        "license-checker": "^25.0.1",
+        "yargs": "^17.2.0"
+    }
+}
