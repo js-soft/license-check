@@ -18,7 +18,7 @@ const argv = yargs(yargs.hideBin(process.argv))
     .option("include-dev", {
         type: "boolean",
         default: false,
-        description: "Check"
+        description: "Include dev-devpendencies in license-check."
     })
     .option("ignorePackages", {
         type: "array",
@@ -33,7 +33,8 @@ const argv = yargs(yargs.hideBin(process.argv))
     .option("ignoreRegex", {
         type: "string",
         description: "Ignore packages that match the given regex."
-    }).argv;
+    })
+    .help().argv;
 
 require("../src/execute")({
     writeFile: argv.file,
