@@ -1,11 +1,8 @@
 {
     "name": "@js-soft/license-check",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Check for green licenses",
-    "repository": {
-        "type": "git",
-        "url": "github.com/js-soft/license-check.git"
-    },
+    "repository": "github:js-soft/license-check",
     "license": "MIT",
     "author": "j&s-soft GmbH",
     "main": "index.js",
@@ -17,7 +14,7 @@
     },
     "dependencies": {
         "license-checker": "^25.0.1",
-        "yargs": "^17.2.0"
+        "yargs": "^17.2.1"
     },
     "publishConfig": {
         "access": "public"
