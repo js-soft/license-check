@@ -6,6 +6,7 @@ const DEFAULT_GREEN_LICENSES = [
     "APSL-2.0",
     "Apache-1.1",
     "Apache-2.0",
+    "Apache 2.0",
     "Artistic-1.0",
     "Artistic-2.0",
     "BSD",
