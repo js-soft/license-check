@@ -2,7 +2,7 @@
     "name": "@js-soft/license-check",
     "version": "1.0.8",
     "description": "Check for green licenses",
-    "repository": "github:js-soft/license-check",
+    "repository": "github:js-soft/npm-license-check",
     "license": "MIT",
     "author": "j&s-soft GmbH",
     "main": "index.js",
