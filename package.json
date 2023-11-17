@@ -1,6 +1,6 @@
 {
     "name": "@js-soft/license-check",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Check for green licenses",
     "repository": "github:js-soft/license-check",
     "license": "MIT",
@@ -14,9 +14,10 @@
     },
     "dependencies": {
         "license-checker": "^25.0.1",
-        "yargs": "^17.6.2"
+        "yargs": "^17.7.2"
     },
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "provenance": true
     }
 }
