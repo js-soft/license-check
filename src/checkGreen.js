@@ -9,6 +9,7 @@ const DEFAULT_GREEN_LICENSES = [
     "Apache 2.0",
     "Artistic-1.0",
     "Artistic-2.0",
+    "BlueOak-1.0.0",
     "BSD",
     "BSD-2-Clause",
     "BSD-3-Clause",
